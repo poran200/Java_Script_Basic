@@ -7,7 +7,7 @@ console.log(name);
 // can not start with a number
 // cant not containt a space or hyphen(-)
 
-let fristName;
+let fristName = "jone";
 //camele notatation
 
 
@@ -15,3 +15,22 @@ let fristName;
 const intersRate = 30;
 //intersRate = 1;
 console.log(intersRate);
+
+// primitive types
+let  name1 = 'poran';// string 
+let  age = 30; //Number
+let isAproved= false;//Boolean 
+// let fristName= undefined;
+let lastName= null;
+
+let person = {
+    name : "jone",
+    age : 23
+};
+//change property
+person.name = "mizan"
+// red value from object 
+// dot notatation
+ console.log(person.name);
+ // bracket notation 
+ console.log(person['age'])
