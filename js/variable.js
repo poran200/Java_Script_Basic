@@ -9,4 +9,9 @@ console.log(name);
 
 let fristName;
 //camele notatation
-let intersRate = 30;
+
+
+//constnat 
+const intersRate = 30;
+//intersRate = 1;
+console.log(intersRate);
