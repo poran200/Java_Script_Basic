@@ -34,3 +34,25 @@ person.name = "mizan"
  console.log(person.name);
  // bracket notation 
  console.log(person['age'])
+
+// array 
+let selcetedColor = ['red','blue'];
+console.log(selcetedColor);
+selcetedColor.push('green')
+selcetedColor.slice(0,1);
+console.log(selcetedColor[0]); 
+console.log(selcetedColor.length);
+
+// function 
+
+function hello(massge){
+    console.log('hello '+ massge);
+}
+hello('jone');
+
+//calculate a value 
+function square(number){
+    return number*number;
+}
+let number = square(2);
+console.log(number);
