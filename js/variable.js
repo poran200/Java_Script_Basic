@@ -82,5 +82,12 @@ console.log('1' == 1);
 let points = 110 ;
 let type = points > 100 ?'gold' : 'silver';
 console.log(type);
+// swaping variable 
+let  a = 'red';
+let b = 'green';
 
-
+let c = a;
+a = b;
+b= c;
+console.log(a);
+console.log(b)
