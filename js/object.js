@@ -23,3 +23,18 @@ function  createCircle(redius){
 }
 const circle1 = createCircle(2);
 console.log(circle1)
+
+//constructor function 
+function Circle(redius){
+    this.redius=redius;
+    this.draw = function(){
+        console.log('draw');
+    }
+}
+
+const  ob = new Circle(1);
+ob.draw(); 
+
+
+const anotherOb = {...ob}
+console.log(anotherOb);
