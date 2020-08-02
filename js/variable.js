@@ -80,7 +80,7 @@ console.log('1' == 1);
 
 // ternary oparator 
 let points = 110 ;
-let type = points > 100 ?'gold' : 'silver';
+let type = points > 100 ? 'gold' : 'silver';
 console.log(type);
 // swaping variable 
 let  a = 'red';
@@ -91,3 +91,23 @@ a = b;
 b= c;
 console.log(a);
 console.log(b)
+
+//for-in looop
+const person = {
+    name:'mosh',
+    age: 15
+};
+
+for(let key in person){
+    console.log(person)
+}
+const colors = ['red','green','blue'];
+for (let index in colors){
+    console.log(index,colors[index]);
+}
+
+//for of loop 
+for(let item of colors){
+    if(item ==='red') break;
+    console.log(item);
+}
