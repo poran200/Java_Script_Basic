@@ -93,10 +93,10 @@ console.log(a);
 console.log(b)
 
 //for-in looop
-const person = {
-    name:'mosh',
-    age: 15
-};
+// const personobj = {
+//     name:'mosh',
+//     age: 15
+// };
 
 for(let key in person){
     console.log(person)
@@ -111,3 +111,12 @@ for(let item of colors){
     if(item ==='red') break;
     console.log(item);
 }
+
+// show propreties on object
+function showPropertiesOject(object){
+    for (let key in object) 
+    if(typeof object[key] === 'string')
+    console.log(key, object[key])
+}
+// showPropertiesOject(person);
+
