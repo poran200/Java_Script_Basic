@@ -35,6 +35,18 @@ function Circle(redius){
 const  ob = new Circle(1);
 ob.draw(); 
 
-
+//clone object
 const anotherOb = {...ob}
 console.log(anotherOb);
+
+// bultin Object 
+const random = Math.random();
+
+//String objcet 
+const massage = 'hi';
+const length = massage.length;
+// date objcet 
+const now = new Date()
+console.log(now.toISOString());
+
+ 
