@@ -19,3 +19,6 @@ function  Post(titel, body, author){
     this.commnets= [];
     this.islive= false;
 }
+
+let post1 = new Post('a','b','c');
+console.log(post1);
