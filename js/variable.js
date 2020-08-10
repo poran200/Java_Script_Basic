@@ -118,5 +118,5 @@ function showPropertiesOject(object){
     if(typeof object[key] === 'string')
     console.log(key, object[key])
 }
-// showPropertiesOject(person);
-
+// showPropertiesOject(person);'
+ 
