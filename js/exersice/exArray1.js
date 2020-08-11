@@ -11,3 +11,16 @@ function scearch(array, scearchElement){
 
 console.log(scearch(arr,3));
  
+function duplicate(arry, element){
+    let count = 0;
+    for(let e of arry){
+       if(e === element){
+        count++;
+       }
+    }
+    return count;
+
+    
+}
+
+console.log(duplicate(arr,7));
