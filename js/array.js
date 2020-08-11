@@ -28,4 +28,8 @@ console.log(arrow);
 
 const numbers1 = [1,5];
 console.log([...numbers1]);
+
+
+numbers.forEach(number => console.log(number));
+console.log(numbers.join(','));
  
