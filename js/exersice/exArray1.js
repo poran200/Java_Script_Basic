@@ -8,7 +8,7 @@ function scearch(array, scearchElement){
     }
     return false;
 }
-
+ 
 console.log(scearch(arr,3));
  
 function duplicate(arry, element){
@@ -19,8 +19,16 @@ function duplicate(arry, element){
        }
     }
     return count;
-
-    
 }
 
 console.log(duplicate(arr,7));
+
+ const person = {
+     name: '',
+     get(){
+         return name;
+     }, 
+     set(name){
+       this.name = name;
+     }  
+ }
