@@ -46,5 +46,4 @@ function pangramCheck(sentence){
     }
     return true;
 }
-
 console.log(pangramCheck('abcdefghijklmnopqrstuvwx'));
